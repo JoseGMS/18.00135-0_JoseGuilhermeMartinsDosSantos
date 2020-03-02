@@ -1,0 +1,31 @@
+1. C:\Program Files\Java\jdk1.8.0_162
+2. C:\Program Files\Java\jdk1.8.0_162\bin
+3. javac SeuCodigo.java 
+4. java -jar arquivo.jar ou java NomeDoArquivo
+5. 
+O que são variáveis de ambiente?
+Quando um programa é executado, ele recebe informações do ambiente em que ele está sendo executado. Essas informações de ambiente são passadas implicitamente via variáveis de ambiente. Esses valores são, por exemplo, o locale do sistema, tipo do terminal, etc.
+
+Elas são valores nomeados dinamicamente no sistema operacional, que afeta o comportamentos dos programas que o consome. Elas são guardadas em uma "lista" de chave-valor.
+
+Todos os valores das variáveis de ambiente são strings não nulas.
+https://pt.stackoverflow.com/questions/339476/o-que-s%C3%A3o-vari%C3%A1veis-de-ambiente
+6.
+Somente se for em seu ambiente.
+7. 
+Windows 10 e Windows 8:
+a) Em Pesquisar, procure e selecione: Sistema (Painel de Controle)
+b) Clique no link Configurações avançadas do sistema.
+c) Clique em Variáveis de Ambiente. Na seção Variáveis do Sistema, localize a variável de ambiente PATH e selecione-a. Clique em Editar. Se a variável de ambiente PATH não existir, clique em Novo.
+d) Na janela Editar Variável de Sistema (ou Nova Variável de Sistema), especifique o valor da variável de ambiente PATH. Clique em OK. Feche todas as janelas restantes clicando em OK.
+e) Reabra a janela Prompt de comando e execute o código Java.
+Linux:
+Para descobrir se o caminho está definido corretamente:
+em uma janela de terminal, digite:
+% java -version
+Isso imprimirá a versão da ferramenta java, se for possível encontrá-la. Se a versão for antiga ou você obtiver o erro java: Comando não encontrado, o caminho não está definido corretamente.
+Determine qual executável java é o primeiro encontrado no PATH
+Em uma janela de terminal, digite:
+% which java
+https://www.java.com/pt_BR/download/help/path.xml
+8. https://devjava.wordpress.com/2014/01/17/env-003-variaveis-de-ambiente-java-java_home-classpath/
