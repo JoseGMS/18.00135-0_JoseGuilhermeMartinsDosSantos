@@ -1,0 +1,10 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="CompileDirty@NavBarToolbar" count="1" />
+      <entry action="FileChooser.NewFolder@FileChooserDialog" count="1" />
+      <entry action="Run@NavBarToolbar" count="35" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="8" />
+    </counts>
+  </component>
+</application>

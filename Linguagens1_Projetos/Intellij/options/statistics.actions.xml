@@ -1,0 +1,46 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Copy" count="1" />
+      <entry action="$Delete" count="6" />
+      <entry action="$SelectAll" count="2" />
+      <entry action="$Undo" count="6" />
+      <entry action="CloseProject" count="11" />
+      <entry action="CodeCompletion" count="20" />
+      <entry action="CommentByLineComment" count="2" />
+      <entry action="CompileDirty" count="3" />
+      <entry action="EditorBackSpace" count="306" />
+      <entry action="EditorChooseLookupItem" count="9" />
+      <entry action="EditorChooseLookupItemReplace" count="58" />
+      <entry action="EditorCopy" count="6" />
+      <entry action="EditorCut" count="1" />
+      <entry action="EditorDelete" count="2" />
+      <entry action="EditorDown" count="22" />
+      <entry action="EditorDuplicate" count="1" />
+      <entry action="EditorEnter" count="70" />
+      <entry action="EditorLeft" count="76" />
+      <entry action="EditorPaste" count="3" />
+      <entry action="EditorRight" count="99" />
+      <entry action="EditorTab" count="22" />
+      <entry action="EditorToggleInsertState" count="1" />
+      <entry action="EditorUp" count="17" />
+      <entry action="ExportSettings" count="1" />
+      <entry action="FileChooser.NewFolder" count="1" />
+      <entry action="GotoFile" count="1" />
+      <entry action="HideAllWindows" count="8" />
+      <entry action="ImportSettings" count="2" />
+      <entry action="MakeModule" count="1" />
+      <entry action="NewClass" count="5" />
+      <entry action="NewDir" count="3" />
+      <entry action="NewFile" count="7" />
+      <entry action="NewProject" count="5" />
+      <entry action="OpenFile" count="2" />
+      <entry action="OpenModuleSettings" count="1" />
+      <entry action="Run" count="35" />
+      <entry action="RunClass" count="1" />
+      <entry action="SaveAll" count="4" />
+      <entry action="ShowProjectStructureSettings" count="1" />
+      <entry action="ShowSettings" count="4" />
+    </counts>
+  </component>
+</application>
