@@ -17,9 +17,9 @@ public class transacoes {
         String[] dados = QRCode.split(";");
         if(Double.parseDouble(dados[0] ) == conta2.getID())
         {
-            conta1.sacar(Double.parseDouble(dados[2]));
-            conta2.depositar(Double.parseDouble(dados[2]));
-
+            if(conta1.sacar(Double.parseDouble(dados[2])) == 1) {
+                conta2.depositar(Double.parseDouble(dados[2]));
+            }
         }
     }
 }

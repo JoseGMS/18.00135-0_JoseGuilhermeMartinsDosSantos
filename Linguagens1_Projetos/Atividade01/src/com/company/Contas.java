@@ -9,7 +9,7 @@ public class Contas {
         this.usuario = usuario;
         Contas.ID = Contas.ID + 1;
     }
-    public double sacar(double valor){
+    public int sacar(double valor){
         if(saldo >= valor){
             saldo -= valor;
             return 1;
